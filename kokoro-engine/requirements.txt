@@ -1,0 +1,6 @@
+flask
+kokoro
+numpy
+soundfile
+requests
+torch

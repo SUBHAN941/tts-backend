@@ -1,0 +1,45 @@
+# Node.js
+node_modules/
+
+# Python Virtual Environment
+kokoro-env/
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment Variables
+.env
+
+# Audio Files
+audio/mp3/*
+audio/wav/*
+
+# Keep folders
+!audio/mp3/.gitkeep
+!audio/wav/.gitkeep
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# Generated Files
+*.wav
+*.mp3
+
+# Python Packages
+*.pyd
+*.dll
+*.so
+config.bat
